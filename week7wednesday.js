@@ -1,7 +1,22 @@
-function giveEmployeeARaise(employee) {
+// function giveEmployeeARaise(employee) {
+//       employee.salary += 1000;
+//       return employee
+// }
+
+
+//as arrow function
+let giveEmployeeARaise = (employee) => {
       employee.salary += 1000;
-      return employee
+      return employee;
 }
+
+// let addNumber = (firstNumber, secondNumber) => {
+//       return firstNumber + secondNumber;
+// }
+
+//equivalent
+
+let addNumber = (firstNumber, secondNumber) => firstNumber + secondNumber;
 
 let edan = {
       name: "Edan",
@@ -9,6 +24,6 @@ let edan = {
       salary: 1000000
 };
 
-let updatedEdan =giveEmployeeARaise(edan);
+let updatedEdan = giveEmployeeARaise(edan);
 console.log(edan);
 console.log(updatedEdan);
