@@ -1,0 +1,10 @@
+heroku create
+
+git push heroku master
+
+heroku open
+
+heroku logs --tail
+
+// heroku needs your api-key
+// go into app - settings - config vars   <- these are environment variables / GIPHY_API_KEY=$#TQRFEAVDH%$TEW / put this in there
