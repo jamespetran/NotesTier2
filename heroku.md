@@ -12,6 +12,7 @@
 // its DATABASE TIME!!!
 
 ```heroku addons:create heroku-postgresql:hobby-dev```
+
 ```heroku pg:push the_actual_name_of_your_database DATABASE_URL```
 
 https://github.com/PrimeAcademy/woodall-syllabus/blob/master/lecture-notes/week-10-react-props/10-01_heroku-sql.md
